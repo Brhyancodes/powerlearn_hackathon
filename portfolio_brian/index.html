@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="/assets/logo.jpeg" class="logo" alt="logo" />
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+        
+           <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <div class="header-text">
+          <p>Front-End Engineer</p>
+          <h1>Hi,I'm <span>BrhyanCodes </span><br />from Kenya</h1>
+        </div>
+      </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img src="/assets/about.jpeg" alt="brhyan" />
+          </div>
+          <div class="about-col-2">
+            <h1 class="sub-title">About Me</h1>
+            <p>
+              Hi! Brian is a passionate young man dedicated to crafting
+              impactful user experiences through technology. As a skilled
+              Full-Stack Engineer, he excels in Front-End development,
+              proficient in HTML, Tailwind CSS, JavaScript, and React
+              frameworks. With a keen eye for design, he is adept at using Adobe
+              XD and Figma to ensure a seamless integration of aesthetics and
+              functionality. His goal is to leverage his expertise to contribute
+              to innovative projects that positively impact the world.
+            </p>
+            <div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab(event, 'skills')">
+      Skills
+    </p>
+    <p class="tab-links" onclick="opentab(event, 'experience')">
+      Experience
+    </p>
+    <p class="tab-links" onclick="opentab(event, 'education')">
+      Education
+    </p>
+  </div>
+  <div class="tab-contents active-tab" id="skills">
+    <ul>
+      <li><span>UI/UX</span><br />Designing Web App Interfaces</li>
+      <li><span>Web Development</span><br />Web App Development</li>
+    </ul>
+  </div>
+  <div class="tab-contents" id="experience">
+    <ul>
+      <li><span>2024-Current</span><br />UI/UX Freelancer</li>
+      <li>
+        <span>2024 September-Current</span><br />Front-End Engineer at
+        ALX Ventures
+      </li>
+    </ul>
+  </div>
+  <div class="tab-contents" id="education">
+    <ul>
+      <li>
+        <span>2024-Present </span><br />Software Engineering-PLP
+        Africa
+      </li>
+      <li>
+        <span>2023-2024</span><br />Software Engineering ALX Africa
+      </li>
+    </ul>
+  </div>
+  <!-- A section for interests -->
+<div id="interests">
+  <div class="container">
+    <h1 class="sub-title">Interests</h1>
+    <p>I'm passionate about:</p>
+    <ul>
+      <li>Reading books on technology and innovation</li>
+      <li>Playing Lawn Tennis</li>
+      <li>Participating in coding challenges and hackathons</li>
+      <li>Exploring new design trends and UI/UX principles</li>
+      
+    </ul>
+  </div>
+</div>
+  <!-------------------------- portfolio ------------------>
+  <div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        
+        <a href="https://vercel.com/brhyancodes-projects" class="btn">Link to my Projects</a>
+        <div class="work-list">
+            <div class="work">
+                <img src="/assets/Screenshot (161).png" alt="color picker app">
+                <div class="layer">
+        <h3>Color Picker App</h3>
+        <p>The App helps you pick different colors when styling your web page</p>
+        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/assets/Screenshot (160).png" alt="Temperature conversion">
+                <div class="layer">
+        <h3>Temperature Conversion</h3>
+        <p>The App converts Temperature from Celsius to Fahrenheit etc</p>
+        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="/assets/Screenshot (159).png" alt="Weather app">
+                
+                <div class="layer">
+        <h3>Weather  App</h3>
+        <p>The App helps one access weather conditions for different places</p>
+        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+    <!----- contact ----->
+    <div id="contact">
+<div class="container">
+<div class="row">
+  <div class="contact-left">
+    <h1 class="sub-title">Contact Me</h1>
+    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>contact@brianweke1998@gmail.com</p>
+    <p>    <i class="fa-solid fa-phone"></i>
+</i>+254792659988</p>
+    <div class="social-icons">
+      <a href="https://www.facebook.com/Salviussalim"><i class="fab fa-facebook"></i></a>
+<a href="https://x.com/salimthe_don"><i class="fab fa-twitter"></i></a>
+<a href="https://www.linkedin.com/in/brian-wakhale-896b6b2a3/"><i class="fab fa-linkedin"></i></a>
+    </div>
+    <a href="/assets/B_WAKHALE_RESUME.pdf" download class="btn btn2">Download CV</a>
+  </div>
+   <div class="contact-right">
+    <form>
+      <input type="text" name="Name" placeholder="Your name" required>
+      <input type="email" name="email" placeholder="Your email" required>
+      <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+      <button type="submit" class="btn btn2">Submit</button>
+    </form>
+   </div>
+</div>
+<div class="copyright">
+<p>Copyright &copy;BrhyanCodes.Made by<i class="fa-solid fa-heart"></i> BrhyanCodes</p>
+</div>
+</div>
+    </div>
+  <script>
+    function opentab(event, tabname) {
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+      for (tablink of tablinks) {
+        tablink.classList.remove("active-link");
+      }
+      for (tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+      }
+      event.currentTarget.classList.add("active-link");
+      document.getElementById(tabname).classList.add("active-tab");
+    }
+  </script>
+            
+  </body>
+</html>
